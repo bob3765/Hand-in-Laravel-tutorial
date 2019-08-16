@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    @extends('Layout')
-</head>
-<body>
-    <h1>This is it </h1>
-</body>
-</html>
+@extends('layouts.app')
+@section('content')
+<h2 class="mt-5 mb-3 text-center">Laravel 5.8 For Beginners!</h2>
+<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit Aut.</p>
+@endsection
